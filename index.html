@@ -46,9 +46,37 @@
         <div class="container">
 
             <a href="#" class="logo">
-                <img src="./image/logo.png" width="364" height="58" alt=""logo>
+                <img src="./image/logo.png" width="284" height="58" alt=""logo style="margin-top: -20px;">
             </a>
 
+            <div class="search-view" data-search-view>
+
+                <div class="search-wrapper">
+                    <input type="search" name="search" placeholder="Search City.."
+                    autocomplete="off" class="search-field" data-search-field>
+
+                    <span class="m-icon">search</span>
+                </div>
+
+                <button class="icon-btn leading-icon has-state" arial-label="close search" data-search-toggler>
+                  <span class="m-icon">arrow_back</span>
+                </button>
+            </div>
+
+            <div class="search-result" data-search-result>
+                <ul class="view-list" data-search-list>
+
+                    <li class="view-item">
+                        <span class="m-icon">location_on</span>
+
+                        <div>
+                            <p class="item-title">London</p>
+
+                            <p class="label-2 item-subtitle">State of London, GB</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
        </header>
 
