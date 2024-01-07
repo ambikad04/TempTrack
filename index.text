@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-----
+            - primary meta tags
+        ----->
+        <title>Temp Track</title>
+        <meta name="title" content="Temp Track">
+        <meta name="description" content="Temp Track is a weather app made by ambikad04">
+
+        <!------
+            - favicon
+        ------>
+        <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+        <!--------
+            - google font link
+        --------->
+        <link rel="preconnection" href="https://fonts.googleapis.com">
+        <link rel="preconnection" href="http://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+        <!-----
+            - custom css link
+        ------>
+        <link rel="stylesheet" href="./css/style.css">
+
+        <!-----
+            - 
+        ------>
+        <script src="./java-script/app.js" type="module"></script>
+        <script src="./java-script/route.js" type="module"></script>
+    </head>
+
+    <body>
+
+
+    </body>
+</html>
+
 
