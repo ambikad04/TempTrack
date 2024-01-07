@@ -160,3 +160,8 @@ body {
 }
 
 ::selection { background-color: var(--white-alpha-8);}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
