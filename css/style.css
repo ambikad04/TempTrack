@@ -1,10 +1,5 @@
-/**
- * copyright 2024 ambikad04
- */
 
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
+/*------------ CUSTOM PROPERTY ---------------*/
 
 :root {
     --primary: #B5A1E5;
@@ -31,6 +26,8 @@
     --white-alpha-8: hsla(0, 0%, 100%, 0.08);
     --black-alpha-10: hsla(0, 0%, 0%, 0.1);
 
+    /*-----------------------------------*/
+
 
 
     /* gradient colors */
@@ -40,9 +37,7 @@
   
 
 
-    /**
-      * TYPOGRAPHY
-      */
+    /* TYPOGRAPHY */
 
     /* font family */
     --ff-nunito-sans: 'Nunito Sans', sans-serif;
@@ -68,32 +63,24 @@
   
 
 
-    /**
-      * BOX SHADOW
-      */
+    /* BOX SHADOW */
     --shadow-1: 0px 1px 3px hsla(0, 0%, 0%, 0.5);
     --shadow-2: 0px 3px 6px hsla(0, 0%, 0%, 0.4);
   
 
 
-    /**
-      * BORDER RADIUS
-      */
+    /* BORDER RADIUS */
     --radius-28: 28px;
     --radius-16: 16px;
     --radius-pill: 500px;
     --radius-circle: 50%;
   
-    /** 
-      * TRANSITION
-      */
+    /* TRANSITION */
     --transition-short: 100ms ease;
   }
   
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
+/*------------ RESET ---------------*/
 
 *,
 *::before,
@@ -166,9 +153,10 @@ body {
   border-radius: var(--radius-pill);
 }
 
-/*-----------------------------------*\
-  #MATERIAL ICON
-\*-----------------------------------*/
+/*----------------------------------------*/
+
+/*---------- MATERIAL ICON  -------------*/
+ 
 
 @font-face {
   font-family: 'Material Symbols Rounded';
@@ -195,3 +183,15 @@ body {
   width: 1em;
   overflow: hidden;
 }
+
+/*---------------------------------------*/
+
+/*--------- REUSED STYLE ---------------*/
+
+
+
+
+
+
+
+/*-----------------------------------*/
